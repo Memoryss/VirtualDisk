@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\command">
+      <UniqueIdentifier>{b75733e1-f69f-4010-a4b9-70501254c7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{04c7b5e3-a6a3-49c4-8873-9272b3b96274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\node">
+      <UniqueIdentifier>{deabc0ab-3b69-4091-b117-bd52a5e6ca02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\command">
+      <UniqueIdentifier>{981d003c-2f58-4125-9bf7-f8151024c930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\node">
+      <UniqueIdentifier>{88c3d95e-78e4-4805-a549-6f0e770c1e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tools">
+      <UniqueIdentifier>{8e19120c-7b38-4cbf-b521-b9cdb1eefe16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{aadc8dac-9df4-49f1-b07f-a26e7e151f78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VirtualDisk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDiskMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZBase64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CdCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="DelCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="DirCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="MdCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="MkCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="RdCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="RenCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveCommand.cpp">
+      <Filter>源文件\command</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>源文件\node</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>源文件\node</Filter>
+    </ClCompile>
+    <ClCompile Include="Folder.cpp">
+      <Filter>源文件\node</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件\node</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>源文件\node</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolicLink.cpp">
+      <Filter>源文件\node</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandElement.cpp">
+      <Filter>源文件\node</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandAnalysis.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandFactory.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDisk_unittest.h">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandAnalysis_unittest.cpp">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="CdCommand_unittest.cpp">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualDisk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CdCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="DelCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="DirCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="MdCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="MkCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="RdCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="RenCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveCommand.h">
+      <Filter>头文件\command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandAnalysis.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandFactory.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBase64.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandElement.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="Folder.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolicLink.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
